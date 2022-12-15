@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Secret Notes App</string>
+    <string name="masukkan_secret_key_notes">Masukkan Secret Key Notes</string>
+    <string name="secret_key">Secret Key</string>
+    <string name="cari">Cari</string>
+    <string name="tambah_notes">Tambah Notes</string>
 
 </resources>

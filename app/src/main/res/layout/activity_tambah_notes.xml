@@ -30,7 +30,14 @@
             android:layout_marginTop="10dp"
             android:hint="@string/isi_notes"
             android:background="@drawable/bordered_edittext"
-            android:inputType="text|textMultiLine" />
+            android:inputType="text|textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/btnTambahNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_notes" />
     </LinearLayout>
 
 </ScrollView>

@@ -6,11 +6,14 @@ import retrofit2.Call
 import retrofit2.http.*
 
 interface NotesServices {
-//    @GET("notes/{id}")
+    @GET("notes/{id}")
+    fun getNote(
+
+    ): Call<Responses>
 
     @POST("notes")
     fun addNotes(
-        @Body newNotes: Notes
+        @QueryMap newNotes: HashMap<String, String>
     ): Call<Responses>
 
     @PUT("notes/{secret_key}")
